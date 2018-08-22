@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript">
+function calcular(){
+a=document.getElementById("valor1").value;
+b=document.getElementById("valor2").value;
+document.getElementById("resultado").value = Number(a) * Number(b);
+}
+function calculo(){
+c=document.getElementById("valor3").value;
+d=document.getElementById("valor4").value;
+document.getElementById("res").value = Number(c) + Number(d);
+}
+</script>
+</head>
+<body>
+<H1>
+Calculadora brutal
+</H1>
+<form>
+<input id ="valor1" type="number"> *
+<input id ="valor2" type="number"> =
+<output id="resultado"> </output>
+<input type ="button" onclick="calcular()"/>
+</form>
+<h2> Função de soma
+</h2>
+<form>
+<input id ="valor3" type="number"> +
+<input id ="valor4" type="number"> =
+<output id="res"> </output>
+<input type ="button" onclick="calculo()"/>
+
+
+</form>
+
+
+
+</body>
+</html>
